@@ -1,4 +1,4 @@
-# 👋 Hello, World! I'm [Rushi Prajapati], the Code Alchemist 🧪
+# 👋 Hello, World! I'm Rushi Prajapati, the Code Alchemist 🧪
 
 ```python
 class Bio:
