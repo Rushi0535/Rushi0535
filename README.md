@@ -15,9 +15,9 @@ class Bio:
 
     def showcase_projects(self):
         projects = [
-            {"name": "Project 1", "description": "Description of Project 1", "link": "Link to Project 1"},
-            {"name": "Project 2", "description": "Description of Project 2", "link": "Link to Project 2"},
-            {"name": "Project 3", "description": "Description of Project 3", "link": "Link to Project 3"}
+            {"name": "ANPR", "description": "Description of Project 1", "link": "Link to Project 1"},
+            {"name": "Child Abuse Detection", "description": "Description of Project 2", "link": "Link to Project 2"},
+            {"name": "Animal Abuse Detection", "description": "Description of Project 3", "link": "Link to Project 3"}
         ]
         return projects
 
