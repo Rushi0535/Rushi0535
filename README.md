@@ -1,4 +1,4 @@
-# 👋 Hello, World! I'm Rushi Prajapati, the Code Alchemist 🧪
+# 👋 Hello, World! I'm Rushi Prajapati,the Code Alchemist 🧪
 
 An avid learner, researcher, and community builder with a profound passion for Artificial Intelligence, dedicated to leveraging technology to tackle real-world challenges. Committed to sharing knowledge and fostering collaboration through talks and blogs within the community.
 
