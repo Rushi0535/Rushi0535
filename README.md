@@ -1,4 +1,4 @@
-# Simple README Generator with Technical Skills
+# Simple README Generator with Technical Skills in a Table
 
 bio = {
     "name": "Rushi Prajapati",
@@ -16,45 +16,19 @@ bio = {
         {"name": "Animal Abuse Detection", "description": "Description of Project 3", "link": "Link to Project 3"}
     ],
     "email": "prajapatirushih@gmail.com",
-    "technical_skills": {
-        "Programming Languages": ["Python 3.6+"],
-        "Python Libraries": [
-            "OpenCV", "TensorFlow", "PyTorch", "scikit-image", "Detectron2", "NLTK", "spaCy",
-            "Transformers", "Gensim", "DALL-E", "StyleGAN", "DeepFaceLab", "Keras", "Librosa",
-            "SpeechRecognition", "gTTS", "Pydub", "Scapy", "Requests", "Flask"
-        ],
-        "AI Frameworks": ["TensorFlow", "PyTorch", "Keras", "MXNet", "Caffe", "Theano"],
-        "AI Algorithms": [
-            "Convolutional Neural Networks (CNNs)", "Recurrent Neural Networks (RNNs)",
-            "Long Short-Term Memory (LSTM)", "Generative Adversarial Networks (GANs)",
-            "Variational Autoencoders (VAEs)", "Transformer Models",
-            "BERT (Bidirectional Encoder Representations from Transformers)",
-            "GPT (Generative Pre-trained Transformer)",
-            "Object Detection Algorithms (e.g., YOLO, SSD, Faster R-CNN)",
-            "Image Segmentation Algorithms", "Face Recognition Algorithms",
-            "Pose Estimation Algorithms", "Similarity Search Algorithms",
-            "Reinforcement Learning Algorithms"
-        ],
-        "Computer Vision Techniques": [
-            "Object Detection", "Object Recognition", "Image Segmentation", "Feature Extraction",
-            "Image Enhancement", "Image Transformation", "Image Filtering", "Fourier Transforms",
-            "Wavelet Transforms", "Image Compression", "Color Vision", "Pose Estimation",
-            "Visual Recognition", "Multi-Object Tracking", "Facial Recognition",
-            "Face Lipsync Processing"
-        ],
-        "Web Tools for Development": ["Flask", "Streamlit", "Roboflow", "Docker"],
-        "Deep Learning Concepts": [
-            "Convolutional Neural Networks (CNNs)", "Recurrent Neural Networks (RNNs)",
-            "Long Short-Term Memory (LSTM) Networks", "Generative Adversarial Networks (GANs)",
-            "Variational Autoencoders (VAEs)", "Transformers", "Attention Mechanisms",
-            "Transfer Learning", "Reinforcement Learning", "Autoencoders", "Siamese Networks",
-            "Neural Style Transfer"
-        ],
-        "Operating Systems Used": ["Windows", "Ubuntu", "macOS", "CentOS"],
-        "IDEs": ["Visual Studio Code", "PyCharm"],
-        "Python Servers": ["WSGI (Web Server Gateway Interface)", "Nginx"],
-        "Databases": ["MySQL", "FAISS", "Pinecone", "ChromaDB", "MongoDB"]
-    }
+    "technical_skills": [
+        {"category": "Programming Languages Known", "details": "Python 3.6+"},
+        {"category": "Python Libraries", "details": "OpenCV, TensorFlow, PyTorch, scikit-image, Detectron2, NLTK, spaCy, Transformers, Gensim, DALL-E, StyleGAN, DeepFaceLab, Keras, Librosa, SpeechRecognition, gTTS, Pydub, Scapy, Requests, Flask"},
+        {"category": "AI Frameworks", "details": "TensorFlow, PyTorch, Keras, MXNet, Caffe, Theano"},
+        {"category": "AI Algorithms", "details": "Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM), Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), Transformer Models, BERT, GPT, Object Detection Algorithms (YOLO, SSD, Faster R-CNN), Image Segmentation Algorithms, Face Recognition Algorithms, Pose Estimation Algorithms, Similarity Search Algorithms, Reinforcement Learning Algorithms"},
+        {"category": "Operating Systems Used", "details": "Windows, Ubuntu, macOS, CentOS"},
+        {"category": "Computer Vision Techniques", "details": "Object Detection, Object Recognition, Image Segmentation, Feature Extraction, Image Enhancement, Image Transformation, Image Filtering, Fourier Transforms, Wavelet Transforms, Image Compression, Color Vision, Pose Estimation, Visual Recognition, Multi-Object Tracking, Facial Recognition, Face Lipsync Processing"},
+        {"category": "Web Tools for Development", "details": "Flask, Streamlit, Roboflow, Docker"},
+        {"category": "Deep Learning Concepts", "details": "Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) Networks, Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), Transformers, Attention Mechanisms, Transfer Learning, Reinforcement Learning, Autoencoders, Siamese Networks, Neural Style Transfer"},
+        {"category": "IDEs", "details": "Visual Studio Code, PyCharm"},
+        {"category": "Python Servers", "details": "WSGI (Web Server Gateway Interface), Nginx"},
+        {"category": "Databases", "details": "MySQL, FAISS, Pinecone, ChromaDB, MongoDB"}
+    ]
 }
 
 # Generate README content
@@ -71,15 +45,21 @@ I'm passionate about {', '.join(['**' + interest + '**' for interest in bio['int
 for project in bio['projects']:
     readme_content += f"- [{project['name']}]({project['link']}): {project['description']}\n"
 
-readme_content += "\n## 🛠️ Technical Skills\n"
+readme_content += "\n## 🛠️ Technical Skills\n\n"
 
-for category, skills in bio['technical_skills'].items():
-    readme_content += f"\n### {category}\n\n"
-    for skill in skills:
-        readme_content += f"- {skill}\n"
+# Start of the table
+readme_content += "| **Technical Skills**                | **Details** |\n"
+readme_content += "|-------------------------------------|-------------|\n"
+
+# Add technical skills to the table
+for skill in bio['technical_skills']:
+    # Replace any newline characters with spaces
+    details = skill['details'].replace('\n', ' ')
+    # Handle long text in details by adding line breaks
+    details = details.replace(', ', ',<br>')
+    readme_content += f"| **{skill['category']}** | {details} |\n"
 
 readme_content += "\n## 🌐 Connect with Me\n"
-
 for platform, link in bio['social'].items():
     readme_content += f"- [{platform}]({link})\n"
 
