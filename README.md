@@ -1,6 +1,6 @@
 # 👋 Hello, World! I'm **Rushi Prajapati**, the **Code Alchemist** 🧪
 
-An avid learner, researcher, and community builder with a profound passion for **Artificial Intelligence**, dedicated to leveraging technology to solve real-world challenges. I'm committed to sharing knowledge and fostering collaboration through **talks** and **blogs** within the community.
+An avid **learner, researcher, and community builder** with a profound passion for **Artificial Intelligence**, dedicated to leveraging technology to solve real-world challenges. I'm committed to sharing knowledge and fostering collaboration through **talks** and **blogs** within the community.
 
 ---
 
