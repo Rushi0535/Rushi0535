@@ -13,54 +13,19 @@ Here are some of my key projects:
 
 ## 🛠️ Technical Skills
 
-### Programming Languages
-- **Python 3.6+**
-
-### Python Libraries
-- **OpenCV**, **TensorFlow**, **PyTorch**, **scikit-image**, **Detectron2**, **NLTK**, **spaCy**, **Transformers**, **Gensim**, **DALL-E**, **StyleGAN**, **DeepFaceLab**, **Keras**, **Librosa**, **SpeechRecognition**, **gTTS**, **Pydub**, **Scapy**, **Requests**, **Flask**
-
-### AI Frameworks
-- **TensorFlow**, **PyTorch**, **Keras**, **MXNet**, **Caffe**, **Theano**
-
-### AI Algorithms
-- **Convolutional Neural Networks (CNNs)**
-- **Recurrent Neural Networks (RNNs)**
-- **Long Short-Term Memory (LSTM)**
-- **Generative Adversarial Networks (GANs)**
-- **Variational Autoencoders (VAEs)**
-- **Transformer Models** (including **BERT**, **GPT**)
-- **Object Detection Algorithms**: YOLO, SSD, Faster R-CNN
-- **Image Segmentation Algorithms**
-- **Face Recognition Algorithms**
-- **Pose Estimation Algorithms**
-- **Similarity Search Algorithms**
-- **Reinforcement Learning Algorithms**
-
-### Computer Vision Techniques
-- **Object Detection**, **Object Recognition**, **Image Segmentation**, **Feature Extraction**
-- **Image Enhancement**, **Image Transformation**, **Image Filtering**
-- **Fourier Transforms**, **Wavelet Transforms**, **Image Compression**
-- **Color Vision**, **Pose Estimation**, **Visual Recognition**
-- **Multi-Object Tracking**, **Facial Recognition**, **Face Lipsync Processing**
-
-### Web Development Tools
-- **Flask**, **Streamlit**, **Roboflow**, **Docker**
-
-### Deep Learning Concepts
-- **Convolutional Neural Networks (CNNs)**, **Recurrent Neural Networks (RNNs)**
-- **Long Short-Term Memory (LSTM)**, **Generative Adversarial Networks (GANs)**
-- **Variational Autoencoders (VAEs)**, **Transformers**, **Attention Mechanisms**
-- **Transfer Learning**, **Reinforcement Learning**, **Autoencoders**, **Siamese Networks**
-- **Neural Style Transfer**
-
-### IDEs
-- **Visual Studio Code**, **PyCharm**
-
-### Python Servers
-- **WSGI (Web Server Gateway Interface)**, **Nginx**
-
-### Databases
-- **MySQL**, **FAISS**, **Pinecone**, **ChromaDB**, **MongoDB**
+| **Category**                     | **Details**                                                                                                                                                                                                                                                                                                                                                        |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Programming Languages Known:** | **Python 3.6+**                                                                                                                                                                                                                                                                                                                                                   |
+| **Python Libraries:**            | OpenCV, TensorFlow, PyTorch, scikit-image, Detectron2, NLTK, spaCy, Transformers, Gensim, DALL-E, StyleGAN, DeepFaceLab, Keras, Librosa, SpeechRecognition, gTTS, Pydub, Scapy, Requests, Flask.                                                                                                                                                                     |
+| **AI-Framework:**                | TensorFlow, PyTorch, Keras, MXNet, Caffe, Theano                                                                                                                                                                                                                                                                                                                    |
+| **AI-Algorithm:**                | Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM), Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), Transformer Models, BERT (Bidirectional Encoder Representations from Transformers), GPT (Generative Pre-trained Transformer), Object Detection Algorithms (YOLO, SSD, Faster R-CNN), Image Segmentation Algorithms, Face Recognition Algorithms, Pose Estimation Algorithms, Similarity Search Algorithms, Reinforcement Learning Algorithms |
+| **Operating Systems Used:**      | Windows, Ubuntu, MacOS, CentOS                                                                                                                                                                                                                                                                                                                                     |
+| **Computer Vision Techniques:**  | Object Detection, Object Recognition, Image Segmentation, Feature Extraction, Image Enhancement, Image Transformation, Image Filtering, Fourier Transforms, Wavelet Transforms, Image Compression, Color Vision, Pose Estimation, Visual Recognition, Multi-Object Tracking, Facial Recognition, Face Lipsync Processing                                                   |
+| **Web Tools for Development:**   | Flask, Streamlit, Roboflow, Docker                                                                                                                                                                                                                                                                                                                                  |
+| **Deep Learning Concepts:**      | Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM), Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), Transformers, Attention Mechanisms, Transfer Learning, Reinforcement Learning, Autoencoders, Siamese Networks, Neural Style Transfer                                                      |
+| **IDEs:**                        | Visual Studio Code, PyCharm                                                                                                                                                                                                                                                                                                                                         |
+| **Python Servers:**              | WSGI (web server gateway interface), Nginx                                                                                                                                                                                                                                                                                                                          |
+| **Databases:**                   | MySQL, FAISS, Pinecone, ChromaDB, MongoDB                                                                                                                                                                                                                                                                                                                           |
 
 ## 🧠 Area of Expertise
 - **Artificial Intelligence**, **Natural Language Processing**, and **Computer Vision**
