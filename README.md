@@ -4,7 +4,7 @@ An avid **learner, researcher, and community builder** with a profound passion f
 
 ---
 
-## 🛠️ **Technical Skills**
+## **Technical Skills**
 
 | **Category**                     | **🔍 Details**                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ An avid **learner, researcher, and community builder** with a profound passion f
 
 ## **Connect with Me**
 
-- **portfolio**:[Rushi's Portflio](https://rushi-prajapati.streamlit.app/)
+- **Portfolio**:[Rushi's Portflio](https://rushi-prajapati.streamlit.app/)
 - **LinkedIn**: [Rushi Prajapati on LinkedIn](https://www.linkedin.com/in/rushi-prajapati12/)
 - **Blog**: [Rushi Prajapati's Blog](https://rushi-prajapati.medium.com/)
 - **Email**: prajapatirushih@gmail.com
